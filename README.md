@@ -9,9 +9,13 @@ Just starting from scratch! (referenced from my memory of a book in 2005)
 
 # System requirements
 Microsoft Windows Vista or higher, recommended Windows 8.1+
+
 Darwin/Macintosh/MacOSX
+
 GNU Linux, recommended Debian GNU/Linux or Kali GNU/Linux or a supported Linux Distribution
+
 BSD systems 
+
 UNIX systems
 
 (need to support Apache or Nginx web server)
@@ -21,6 +25,7 @@ Tested on: Kali GNU/Linux running Apache 2.4.51, PHP version 7.4
 => Can run stable on Debian GNU/Linux
 
 HTML version: XHTML 1.1
+
 PHP version: 5.x, 7.x, 8.x
 
 ## Warning: This web server is just in alpha and contain many security vulnerability or error. Please report any error or security vulnerability on the Issue tab. If you want to suggest a features, create a pull request, or use the Issue tab. Very thanks for your contribute.
