@@ -1,4 +1,9 @@
 2021-10-15: First build released
 
 2021-10-21: Patched build: Change from using cookies to session to avoid authentication bypass by creating and changing cookie
-2021-12-20: v0.1.0.0-rewrite Rewritten build: Rewrite the admin panel, will make DDOS mitigation & Bot management in the next build
+2021-12-20: v0.1.0.0-rewrite Rewritten build: Rewrite the admin panel
+Changes:
+The admin login form is now self-checked
+Hash the username and password in SHA2 and check if it matches the hash (not store as plaintext)
+- user: root
+- password: toor
