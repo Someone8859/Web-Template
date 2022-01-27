@@ -7,3 +7,5 @@ The admin login form is now self-checked
 Hash the username and password in SHA2 and check if it matches the hash (not store as plaintext)
 - user: root
 - password: toor
+
+2022-1-27: Minor update of v0.1.0.0 for appearance, uploaded via git cmdline
