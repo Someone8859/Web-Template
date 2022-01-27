@@ -1,0 +1,33 @@
+body {
+	font-family: Courier New;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.lg-form {
+	background-color: #000000;
+	border: none;
+	color: #FFFFFF;
+	padding: 15px 60px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.button {
+	background-color: #000000;
+	border: none;
+	color: #FFFFFF;
+	padding: 15px 50px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px
+}
