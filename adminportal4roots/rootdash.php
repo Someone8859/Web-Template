@@ -13,7 +13,7 @@ session_start();
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<title>Dashboard - Hacker's Network</title>
 		<style type="text/css">
-			@import "../Include/style.css";
+			@import "/Include/style.css";
 		</style>
 		
 	</head>
@@ -26,7 +26,7 @@ session_start();
 		<h1>Dashboard</h1>
 		
 		<?php
-		if ($_GET['from'] == "4dm1n-rootauth.php" || $_SESSION['getdest'] == TRUE) {
+		if ($_GET['from'] == "portal_login.php" OR $_SESSION['getdest'] == TRUE) {
 			if (isset($_SESSION['auth'])) {
 				if ($_SESSION['auth'] == TRUE) {
 					if (!isset($_SESSION['getdest'])) {
