@@ -13,7 +13,7 @@ session_start();
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<title>Dashboard - Hacker's Network</title>
 		<style type="text/css">
-			@import "../Include/style.css";
+			@import "/Include/style.css";
 		</style>
 		
 	</head>
@@ -30,6 +30,7 @@ session_start();
 			if ($_SESSION['auth'] == TRUE) {
 				echo "<br />";
 				echo "<h2>PHPInfo - Hacker's Network Root dashboard</h2>";
+				echo "<h3><a href=\"./rootdash.php\">A faster way to return to the dashboard</a></h3>";
 				phpinfo();
 			} else {
 				echo "<h2>An error occured when verifying you. We will cancel your session</h2>";
