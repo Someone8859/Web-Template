@@ -13,15 +13,22 @@ Microsoft Windows Vista or higher, Windows 8 or later recommended
 
 Darwin/Macintosh/MacOSX
 
-GNU Linux, recommended: Debian GNU/Linux, Kali GNU/Linux, Ubuntu GNU/Linux or a supported Linux Distribution
+GNU/Linux, recommended
 
-UNIX/BSD systems
+Please help us test on:
 
-(need to support Apache or Nginx web server)
+Red Hat Enterprise Linux 8 "Server" (with or without GUI)
+Ubuntu Server (20.04 LTS and will 22.04 LTS)
+Debian 10 or 11 (Buster / Bullseye)
+Rocky Linux, the downstream of Red Hat Enterprise Linux (is receiving good reviews)
+and if you can test in so many other, let me know!
 
-Tested on: Kali GNU/Linux running Apache 2.4.51, PHP version 7.4
-Ubuntu 20.04.3 LTS running Apache 2.4.48, PHP version 7.4
-Latest test on Ubuntu 21.10 running Apache version 2.4.48, PHP version 8.0 (will compatible with PHP7)
+Please use:
+Apache version 2.4.42 or later (notify if you can't)
+PHP version 7.2+
+
+Old softwares:
+Apache version 2.2+ and PHP 5+ with any distribution.
 
 Features:
 
